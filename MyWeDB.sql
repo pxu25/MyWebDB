@@ -47,8 +47,10 @@ CONSTRAINT fk_DownloadUser FOREIGN KEY(UserID)
 		REFERENCES Users(UserID),
 	CONSTRAINT fk_DownloadProducts FOREIGN KEY(ProductID)
 		REFERENCES Products(ProductID));
-
-
+				    
+--We will insert data into the tables. We will use
+--INSERT Table(Col1,Col2,..) VALUES (V1,V2,...), (V2,V2,...)
+				    
 /** Object: Insert the data into tables  ***/
 INSERT Users (UserID, FirstName, LastName, EmailAddress)
 VALUES
