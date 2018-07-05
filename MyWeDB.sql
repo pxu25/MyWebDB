@@ -68,7 +68,9 @@ VALUES
 (1, 1, GETDATE(),'Sci_Fiction_Movie_TransformerIV',2),
 (2, 2, GETDATE(),'Sci_Fiction_Movie_LostV',1),
 (3, 2, GETDATE(),'Sci_Fiction_Movie_TransformerIV',2)
-
+--MyWebDB creation is end.
+				    
+				    				    
 -- Extract the custmer email_address, names, download date, file and product				    
 SELECT u.EmailAddress as email_address, u.FirstName as first_name, u.LastName as last_name,
        d.DownloadDate as download_date, d.FileName as filename, p.ProductName as product_name  
