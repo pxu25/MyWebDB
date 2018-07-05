@@ -14,6 +14,8 @@ CREATE DATABASE MyWebDB
 USE MyWebDB
 GO
 
+--We will create three tables: Products, Users and Downloads.
+
 /***** Object: Table Products ******/
 CREATE TABLE Products
 (ProductID int PRIMARY KEY NOT NULL,
