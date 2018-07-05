@@ -4,10 +4,6 @@ This script creates the database named MyWebDB
 USE master;
 GO
 
-IF  DB_ID('MyWebDB') IS NOT NULL
-DROP DATABASE MyWebDB;
-GO
-
 /***** Object:  Create Database MyWebDB ******/
 IF DB_ID('MyWebDB') IS NOT NULL
     DROP DATABASE MyWebDB
